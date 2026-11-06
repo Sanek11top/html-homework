@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакти — Олександр</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<div class="container">
 
-    <h1>Контакти</h1>
+    <h1 id="title">Контакти</h1>
 
-    <p>
-        <a href="../index.html">Головна</a> |
-        <a href="gallery.html">Галерея</a> |
-        <a href="contact.html">Контакти</a>
+    <p class="menu">
+        <a class="menu-link" href="../index.html">Головна</a>
+        <a class="menu-link" href="gallery.html">Галерея</a>
+        <a class="menu-link" href="contact.html">Контакти</a>
     </p>
 
-    <hr>
+    <h2 id="how-to">Як зі мною зв'язатися</h2>
 
-    <h2>Як зі мною зв'язатися</h2>
-
-    <table border="1" cellpadding="6">
+    <table class="contact-table">
         <tr>
-            <td><b>Email</b></td>
-            <td><a href="mailto:example@gmail.com">cinetica545454@gmail.com</a></td>
+            <td class="label"><b>Email</b></td>
+            <td><a href="mailto:cinetica545454@gmail.com">cinetica545454@gmail.com</a></td>
         </tr>
         <tr>
-            <td><b>Телефон</b></td>
-            <td><a href="tel:+380000000000">+38 (050) 992-73-27</a></td>
+            <td class="label"><b>Телефон</b></td>
+            <td><a href="tel:+380509927327">+38 (050) 992-73-27</a></td>
         </tr>
         <tr>
-            <td><b>Telegram</b></td>
-            <td><a href="https://t.me/username" target="_blank">@NeKomaruu</a></td>
+            <td class="label"><b>Telegram</b></td>
+            <td><a href="https://t.me/NeKomaruu" target="_blank">@NeKomaruu</a></td>
         </tr>
         <tr>
-            <td><b>GitHub</b></td>
-            <td><a href="https://github.com/username" target="_blank">github.com/Sanek11top</a></td>
+            <td class="label"><b>GitHub</b></td>
+            <td><a href="https://github.com/Sanek11top" target="_blank">github.com/Sanek11top</a></td>
         </tr>
     </table>
 
-    <h2>Напиши мені</h2>
-    <form action="#" method="post">
+    <h2 id="write-me">Напиши мені</h2>
+    <form class="contact-form" action="#" method="post">
         <p>
             <label for="name">Ім'я:</label><br>
             <input type="text" id="name" name="name">
@@ -49,16 +49,17 @@
         </p>
         <p>
             <label for="msg">Повідомлення:</label><br>
-            <textarea id="msg" name="msg" rows="5" cols="40"></textarea>
+            <textarea id="msg" name="msg" rows="5"></textarea>
         </p>
         <p>
-            <input type="submit" value="Надіслати">
+            <input type="submit" id="send-btn" value="Надіслати">
         </p>
     </form>
 
     <hr>
 
-    <p><a href="../index.html">← Повернутися на головну</a></p>
+    <p class="back-link"><a href="../index.html">← Повернутися на головну</a></p>
 
+</div>
 </body>
 </html>

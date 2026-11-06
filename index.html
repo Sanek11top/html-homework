@@ -3,77 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Про мене — Олександр</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="container">
 
-    <h1>Олександр</h1>
+    <h1 id="title">Олександр</h1>
 
-    <p>
-        <a href="index.html">Головна</a> |
-        <a href="pages/gallery.html">Галерея</a> |
-        <a href="pages/contact.html">Контакти</a>
+    <p class="menu">
+        <a class="menu-link" href="index.html">Головна</a>
+        <a class="menu-link" href="pages/gallery.html">Галерея</a>
+        <a class="menu-link" href="pages/contact.html">Контакти</a>
     </p>
 
-    <hr>
+    <img id="avatar" src="photo/me.jpg" alt="Моє фото">
 
-    <img src="photo/me.jpg" alt="Моє фото" width="300">
-
-    <h2>Коротко про мене</h2>
-    <p>
+    <h2 id="about">Коротко про мене</h2>
+    <p class="about-text">
         Привіт! Мене звати <b>Олександр</b>. Я вчуся QA
         і роблю свій (не)перший сайт на чистому HTML. Люблю погамати,
         музику та гарну компанію.
     </p>
 
-    <h2>Основна інформація</h2>
-    <table border="1" cellpadding="6">
+    <h2 id="info">Основна інформація</h2>
+    <table class="info-table">
         <tr>
-            <td><b>Ім'я</b></td>
+            <td class="label"><b>Ім'я</b></td>
             <td>Олександр</td>
         </tr>
         <tr>
-            <td><b>Місто</b></td>
+            <td class="label"><b>Місто</b></td>
             <td>Одеса, Україна</td>
         </tr>
         <tr>
-            <td><b>Заняття</b></td>
+            <td class="label"><b>Заняття</b></td>
             <td>Студент, курси QA</td>
         </tr>
         <tr>
-            <td><b>Мови</b></td>
+            <td class="label"><b>Мови</b></td>
             <td>Українська, російська, англійська</td>
         </tr>
     </table>
 
-    <h2>Мої інтереси</h2>
-    <ul>
+    <h2 id="interests">Мої інтереси</h2>
+    <ul class="list-interests">
         <li>Програмування</li>
         <li>Музика</li>
         <li>Ігри</li>
         <li>Тварини</li>
     </ul>
 
-    <h2>Мої цілі</h2>
-    <ol>
+    <h2 id="goals">Мої цілі</h2>
+    <ol class="list-goals">
         <li>Заробляти 2к баксів в день(жарт)</li>
         <li>Навчитися правильно виконувати QA</li>
         <li>Зробити свій перший великий проєкт(опціонально набути роботи)</li>
     </ol>
 
-    <h2>Мій улюбленець</h2>
-    <img src="photo/pet.jpg" alt="Мій улюбленець" width="250">
-    <p>
+    <h2 id="pet">Мій улюбленець</h2>
+    <img id="pet-photo" src="photo/pet.jpg" alt="Мій улюбленець">
+    <p class="pet-caption">
         <i>Це моя краса, кішка Еріка.</i> Завжди піднімає настрій
         і не дає нудьгувати.
     </p>
 
     <hr>
 
-    <p>
+    <p class="back-link">
         Більше фото — у <a href="pages/gallery.html">галереї</a>,
         а зв'язатися зі мною можна на сторінці
         <a href="pages/contact.html">контактів</a>.
     </p>
 
+</div>
 </body>
 </html>
